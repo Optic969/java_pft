@@ -1,5 +1,9 @@
+
+mainClassName = "MainFirstProgramm"
 plugins {
     id 'java'
+    id 'idea'
+    id 'application'
 }
 
 group 'PDP'
