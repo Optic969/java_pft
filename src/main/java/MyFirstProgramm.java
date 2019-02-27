@@ -1,18 +1,22 @@
 public class MyFirstProgramm {
     public static void main (String[] args){
+        /*Вызов метода*/
         partonePDP();
         calcSum(20, 60);
 
-        double len=5;
-        System.out.println("Площадь квадрата со стороной "+len+" "+"равна "+area(len) );
-
-        double a=4;
-        double b=7;
-        System.out.println("Площадь прямоугольника со сторонами "+a+" и "+b+" "+"равна "+area(a,b) );
+        /*Создание объекта Square*/
+        Square s = new Square();
+        s.l=5;
+        System.out.println("Площадь квадрата со стороной "+s.l+" "+"равна "+area(s));
+        /*Создание объекта Rectangle*/
+        Rectangle r = new Rectangle();
+        r.a=4;/*Атрибуты объекта*/
+        r.b=7;
+        System.out.println("Площадь прямоугольника со сторонами "+r.a+" и "+r.b+" "+"равна "+area(r) );
 
 
     }
-    /*Создание функции*/
+    /*Создание метода*/
     static void partonePDP() {
         /*Пример вывода строк и простейших арифметических действий*/
         System.out.println("Hello World!!!!");
@@ -37,19 +41,19 @@ public class MyFirstProgramm {
         System.out.println( c+(a*b)+" "+d+f);
 
     }
-    /*Создание функции с параметрами*/
+    /*Создание метода с параметрами*/
     static void calcSum(int a, int b){
         int sum=a+b;
         System.out.println(sum);
 
     }
-    /*Создание функции с параметрами и возвратом данных*/
-    static double area (double l){
-        return l*l;
+    /*Создание метода с параметрами и возвратом данных*/
+    static double area (Square s){
+        return s.l*s.l;
     }
-    /*Создание функции с параметрами и возвратом данных и демонстрацией области действия переменных и имени функции*/
-    static  double area (double a, double b){
-        return a*b;
+    /*Создание метода с параметрами и возвратом данных и демонстрацией области действия переменных и имени метода*/
+    static  double area (Rectangle r){
+        return r.a*r.b;
 
     }
 
