@@ -6,7 +6,7 @@ public class MyFirstProgramm {
 
         /*Создание объекта Square*/
         Square s = new Square(5);
-        System.out.println("Площадь квадрата со стороной "+s.l+" "+"равна "+area(s));
+        System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+area(s));
         /*Создание объекта Rectangle*/
         Rectangle r = new Rectangle();
         r.a=4;/*Атрибуты объекта*/
@@ -15,6 +15,8 @@ public class MyFirstProgramm {
 
 
     }
+
+
     /*Создание метода*/
     static void partonePDP() {
         /*Пример вывода строк и простейших арифметических действий*/
