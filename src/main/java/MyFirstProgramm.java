@@ -5,8 +5,7 @@ public class MyFirstProgramm {
         calcSum(20, 60);
 
         /*Создание объекта Square*/
-        Square s = new Square();
-        s.l=5;
+        Square s = new Square(5);
         System.out.println("Площадь квадрата со стороной "+s.l+" "+"равна "+area(s));
         /*Создание объекта Rectangle*/
         Rectangle r = new Rectangle();
@@ -42,7 +41,7 @@ public class MyFirstProgramm {
 
     }
     /*Создание метода с параметрами*/
-    static void calcSum(int a, int b){
+    static void calcSum(int a, int b)/*аргументы метода*/{
         int sum=a+b;
         System.out.println(sum);
 
