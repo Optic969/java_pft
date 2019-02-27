@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69e2541-0d68-44c6-bdd0-0d5a964e272d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyFirstProgramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyFirstProgramm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Square.java" afterDir="false" />
     </list>
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstProgramm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="8" column="89" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="89" />
               <folding>
                 <element signature="e#1516#1517#0" expanded="true" />
                 <element signature="e#1546#1547#0" expanded="true" />
@@ -62,13 +61,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
               <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551275356432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551278185491" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,6 +203,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -252,21 +252,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyFirstProgramm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="8" column="89" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="89" />
           <folding>
             <element signature="e#1516#1517#0" expanded="true" />
             <element signature="e#1546#1547#0" expanded="true" />

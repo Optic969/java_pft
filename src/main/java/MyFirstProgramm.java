@@ -7,6 +7,8 @@ public class MyFirstProgramm {
         /*Создание объекта Square*/
         Square s = new Square(5);
         System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+area(s));
+        s.setL(7);
+        s.info();
         /*Создание объекта Rectangle*/
         Rectangle r = new Rectangle();
         r.a=4;/*Атрибуты объекта*/
