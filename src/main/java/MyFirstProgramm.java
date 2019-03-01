@@ -45,7 +45,7 @@ public class MyFirstProgramm {
 
     }
     /*Создание метода с параметрами*/
-    static void calcSum(int a, int b)/*аргументы метода*/{
+    static void calcSum(int a, int b)/*аргументы метода caclSum*/{
         int sum=a+b;
         System.out.println(sum);
 
