@@ -1,4 +1,4 @@
-public class MyFirstProgramm {
+public class Myfirstprogramm {
     public static void main (String[] args){
         /*Вызов метода*/
         partonePDP();

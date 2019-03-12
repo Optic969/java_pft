@@ -1,0 +1,22 @@
+group 'PDP'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+application {
+    mainClassName = "Myfirstprogramm"
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        implementation 'org.testng:testng:6.14.3'
+        implementation 'org.seleniumhq.selenium:selenium-parent:2.53.1'
+
+    }
+}
