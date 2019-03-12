@@ -14,7 +14,7 @@ class Square {
     }
 
     void info() {
-        System.out.println("Сторона квадрата изменена на : " + getL());
+        System.out.println("Сторона квадратnа изменена на : " + getL());
     }
     /*Сеттер*/
     void setL(double l) {
