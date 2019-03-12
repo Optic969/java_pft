@@ -5,10 +5,11 @@ public class MyFirstProgramm {
         calcSum(20, 60);
 
         /*Создание объекта Square*/
-        Square s = new Square(5);
-        System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+s.areaL());
+        Square s = new Square(4);
+        System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+s.area());
         s.setL(7);
-        s.info();
+        //s.info();
+        System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+s.area());
         /*Создание объекта Rectangle*/
         Rectangle r = new Rectangle();
         r.a=4;/*Атрибуты объекта*/

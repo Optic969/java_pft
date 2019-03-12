@@ -5,8 +5,8 @@ class Square {
     /*Конструктор*/
     Square(double l) {
         this.l = l;
-        this.info();
-        this.areaL();
+        //this.info();
+        this.area();
     }
     /*Геттер*/
     double getL() {
@@ -20,7 +20,7 @@ class Square {
     void setL(double l) {
         this.l = l;
     }
-    double areaL (){
+    double area (){
         return this.l*this.l;
     }
 }
