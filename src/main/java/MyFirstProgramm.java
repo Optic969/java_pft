@@ -6,7 +6,7 @@ public class MyFirstProgramm {
 
         /*Создание объекта Square*/
         Square s = new Square(5);
-        System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+area(s));
+        System.out.println("Площадь квадрата со стороной "+s.getL()+" "+"равна "+s.areaL());
         s.setL(7);
         s.info();
         /*Создание объекта Rectangle*/
@@ -51,7 +51,7 @@ public class MyFirstProgramm {
 
     }
     /*Создание метода с параметрами и возвратом данных*/
-    static double area (Square s){
+   /*static double area (Square s){
         return s.l*s.l;
     }
     /*Создание метода с параметрами и возвратом данных и демонстрацией области действия переменных и имени метода*/
@@ -61,3 +61,4 @@ public class MyFirstProgramm {
     }
 
 }
+

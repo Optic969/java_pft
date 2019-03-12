@@ -1,23 +1,27 @@
 /*Создание класса с описанием структуры объекта Square*/
-public class Square {
+class Square {
     /*Атрибуты объекта*/
-    public double l;
+    private double l;
     /*Конструктор*/
-    public Square(double l) {
+    Square(double l) {
         this.l = l;
         this.info();
+        this.areaL();
     }
     /*Геттер*/
-    public double getL() {
+    double getL() {
         return this.l;
     }
 
-    public void info() {
+    void info() {
         System.out.println("Сторона квадрата изменена на : " + getL());
     }
     /*Сеттер*/
-    public void setL(double l) {
+    void setL(double l) {
         this.l = l;
+    }
+    double areaL (){
+        return this.l*this.l;
     }
 }
 

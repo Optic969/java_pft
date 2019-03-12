@@ -1,18 +1,21 @@
 group 'PDP'
 version '1.0-SNAPSHOT'
-//mainClassName = "MainFirstProgramm"
 
 apply plugin: 'java'
 apply plugin: 'idea'
+apply plugin: 'application'
+application {
+    mainClassName = "MyFirstProgramm"
 
-sourceCompatibility = 1.8
+    sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
+    repositories {
+        mavenCentral()
+    }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    implementation 'org.testng:testng:6.14.3'
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        implementation 'org.testng:testng:6.14.3'
 
+    }
 }
