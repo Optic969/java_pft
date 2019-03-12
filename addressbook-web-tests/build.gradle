@@ -13,9 +13,8 @@ apply plugin: 'application'
     }
 
     dependencies {
-        testCompile group: 'junit', name: 'junit', version: '4.12'
         implementation 'org.testng:testng:6.14.3'
-        implementation 'org.seleniumhq.selenium:selenium-parent:2.53.1'
-        implementation 'com.dev9:testng-webdriver:1.6'
-
+        implementation 'ru.sbtqa:webdrivermanager:2.2.3'
+        implementation 'com.comcast.magic-wand:firefox:4.0.3'
+               
     }

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b69e2541-0d68-44c6-bdd0-0d5a964e272d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myfirstprogramm/out/production/classes/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/Myfirstprogramm/out/production/classes/Square.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state relative-caret-position="190">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="289">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/Myfirstprogramm/src/main/java/MyFirstProgramm.java" />
         <option value="$PROJECT_DIR$/Myfirstprogramm/build.gradle" />
         <option value="$PROJECT_DIR$/Myfirstprogramm/src/main/java/Square.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java" />
       </list>
     </option>
   </component>
@@ -122,7 +122,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -183,7 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552401048859" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552407379004" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Myfirstprogramm/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -202,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Myfirstprogramm">
+  <component name="RunManager" selected="TestNG.UntitledTestCase">
     <configuration name="MyFirstProgramm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyFirstProgramm" />
       <module name="PDP.Myfirstprogramm.main" />
@@ -236,23 +236,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="java_pft" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="SquareTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PDP.Myfirstprogramm.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -265,13 +248,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PDP.addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdressBookTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AdressBookTest" />
+      <option name="MAIN_CLASS_NAME" value="AdressBookTest.UntitledTestCase" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UntitledTestCase" />
         <item itemvalue="Application.Myfirstprogramm" />
         <item itemvalue="Gradle.Myfirstprogramm" />
         <item itemvalue="JUnit.SquareTests" />
         <item itemvalue="Application.MyFirstProgramm (1)" />
-        <item itemvalue="Gradle.java_pft" />
       </list>
     </recent_temporary>
   </component>
@@ -289,39 +288,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTests - 2019.03.12 at 12h 28m 28s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 10m 20s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 12h 29m 54s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 11m 42s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 12h 31m 09s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 32m 42s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 12h 37m 03s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 35m 39s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 12h 38m 10s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 42m 35s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 12h 50m 46s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 45m 11s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 12h 52m 15s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 18h 49m 26s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 14h 27m 04s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 19h 09m 08s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SquareTests - 2019.03.12 at 16h 26m 52s.xml">
-      <configuration name="SquareTests" configurationId="JUnit" />
+    <history-entry file="UntitledTestCase - 2019.03.12 at 19h 09m 54s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UntitledTestCase - 2019.03.12 at 19h 15m 46s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -330,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,15 +441,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="289">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        <state relative-caret-position="190">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
