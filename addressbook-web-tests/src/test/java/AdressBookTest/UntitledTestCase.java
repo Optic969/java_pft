@@ -18,7 +18,7 @@ public class UntitledTestCase {
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
-                driver = new ChromeDriver();
+        driver = new ChromeDriver();
         baseUrl = "https://www.katalon.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }

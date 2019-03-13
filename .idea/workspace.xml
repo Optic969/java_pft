@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="20" column="163" selection-start-line="20" selection-start-column="163" selection-end-line="20" selection-end-column="163" />
+            <state relative-caret-position="340">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/Myfirstprogramm/src/main/java/MyFirstProgramm.java" />
         <option value="$PROJECT_DIR$/Myfirstprogramm/build.gradle" />
         <option value="$PROJECT_DIR$/Myfirstprogramm/src/main/java/Square.java" />
-        <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
       </list>
     </option>
   </component>
@@ -183,7 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552474573759" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552475774731" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Myfirstprogramm/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -288,9 +288,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UntitledTestCase - 2019.03.12 at 19h 09m 54s.xml">
-      <configuration name="UntitledTestCase" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="UntitledTestCase - 2019.03.12 at 19h 15m 46s.xml">
       <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
@@ -316,6 +313,9 @@
       <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
     <history-entry file="UntitledTestCase - 2019.03.13 at 13h 22m 28s.xml">
+      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UntitledTestCase - 2019.03.13 at 14h 16m 17s.xml">
       <configuration name="UntitledTestCase" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -439,20 +439,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/AdressBookTest/UntitledTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="163" selection-start-line="20" selection-start-column="163" selection-end-line="20" selection-end-column="163" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
