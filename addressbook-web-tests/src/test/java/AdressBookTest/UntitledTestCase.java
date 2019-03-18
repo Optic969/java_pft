@@ -26,13 +26,13 @@ public class UntitledTestCase {
     @Test
     public void testUntitledTestCase() throws Exception {
         driver.get("http://localhost/addressbook/group.php");
-        driver.findElement(By.name("user")).clear();
+       // driver.findElement(By.name("user")).clear();
         driver.findElement(By.name("user")).sendKeys("admin");
-        driver.findElement(By.name("pass")).clear();
+       // driver.findElement(By.name("pass")).clear();
         driver.findElement(By.name("pass")).sendKeys("secret");
-        driver.findElement(By.name("user")).click();
-        driver.findElement(By.name("pass")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='PASSWORD:'])[1]/following::input[2]")).click();
+       // driver.findElement(By.name("user")).click();
+        //driver.findElement(By.name("pass")).click();
+        driver.findElement(By.xpath("//input[@value='LOGIN']")).click();// До этого использовалось Xpath выражение (.//*[normalize-space(text()) and normalize-space(.)='PASSWORD:'])[1]/following::input[2]
     }
 
     @AfterClass(alwaysRun = true)
