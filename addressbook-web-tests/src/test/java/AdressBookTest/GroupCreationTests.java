@@ -38,7 +38,7 @@ public class GroupCreationTests {
     }
 
     @Test
-    public void testUntitledTestCase() throws Exception {
+    public void testGroupCreationTests() throws Exception {
 
         gotoGroupePage();
         initGroupCreation();
