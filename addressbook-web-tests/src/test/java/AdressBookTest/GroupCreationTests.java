@@ -1,13 +1,13 @@
 package AdressBookTest;
 
-//import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
 import org.openqa.selenium.*;
 
 
-public class UntitledTestCase {
+public class GroupCreationTests {
     private WebDriver driver;
     //private String baseUrl;
     private boolean acceptNextAlert = true;
@@ -16,8 +16,10 @@ public class UntitledTestCase {
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
+        // Create a new instance of the Google driver
         driver = new ChromeDriver();
-        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/group.php");
         login("admin", "secret");
     }
@@ -35,7 +37,7 @@ public class UntitledTestCase {
 //        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
-    @Test(timeOut = 10)
+    @Test
     public void testUntitledTestCase() throws Exception {
 
         gotoGroupePage();
