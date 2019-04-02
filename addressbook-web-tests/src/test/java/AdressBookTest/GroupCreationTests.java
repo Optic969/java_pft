@@ -16,7 +16,6 @@ public class GroupCreationTests {
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
-        // Create a new instance of the Google driver
         driver = new ChromeDriver();
         //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -25,16 +24,10 @@ public class GroupCreationTests {
     }
 
     private void login(String username, String password) {
-        //Переход на сайт и логирование перенесено в вспомогательный метод
-        // driver.findElement(By.name("user")).clear();
         driver.findElement(By.name("user")).sendKeys(username);//рефактор для входа различных юзеров
-        // driver.findElement(By.name("pass")).clear();
         driver.findElement(By.name("pass")).sendKeys(password);
-        // driver.findElement(By.name("user")).click();
-        //driver.findElement(By.name("pass")).click();
         driver.findElement(By.xpath("//input[@value='LOGIN']")).click();// До этого использовалось Xpath выражение (.//*[normalize-space(text()) and normalize-space(.)='PASSWORD:'])[1]/following::input[2]
-        // baseUrl = "https://www.katalon.com/";
-//        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+       //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @Test
