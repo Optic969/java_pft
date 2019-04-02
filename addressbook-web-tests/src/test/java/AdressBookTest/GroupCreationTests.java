@@ -15,7 +15,7 @@ public class GroupCreationTests {
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\PDP1\\chromedriver.exe");
         driver = new ChromeDriver();
         //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -31,7 +31,7 @@ public class GroupCreationTests {
     }
 
     @Test
-    public void testGroupCreationTests() throws Exception {
+    public void testGroupCreation() throws Exception {
 
         gotoGroupePage();
         initGroupCreation();
